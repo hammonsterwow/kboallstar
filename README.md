@@ -72,4 +72,4 @@ python3 scripts/analyze_preliminary.py
 
 ## 연구 진행
 
-[로드맵](docs/research_roadmap.md) · [연구계획서](docs/research_proposal_transcription.md) · [방법론](docs/methodology.md) · [원자료 출처 대장](sources/source_registry.csv) · [GitHub Issues](../../issues)
+[로드맵](docs/research_roadmap.md) · [연구계획서](docs/research_proposal_transcription.md) · [방법론](docs/methodology.md) · [원자료 출처 대장](sources/source_registry.csv) · [GitHub Issues](https://github.com/hammonsterwow/kboallstar/issues)
