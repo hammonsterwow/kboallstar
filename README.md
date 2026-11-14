@@ -1,6 +1,6 @@
 # KBO All-Star Voting & Club Representation
 
-**KBO 올스타 투표 방식 변화와 구단별 대표성 (2009–2018)**
+**KBO 올스타 투표 방식 변화와 구단별 대표성 (2009–2026 확대 연구, 원안 2009–2018)**
 
 > Status: **Research in progress / Preliminary data** (2026-11-14)
 > 이 저장소의 10개년 집계는 **예비 분석**입니다. 원본 출처 재대조, 팬 투표 단독 명단 재구성, 통제변수 수집을 거친 뒤 최종 논문에 사용합니다.
@@ -19,8 +19,20 @@
 - [2014 공식 투표 99명 전수 분석: 팬 단독 vs 합산 0명 변경](docs/2014_empirical_study.md)
 - [2015 · 2026 공식 선발 및 구단 대표성 연구 보고서](docs/2015_2026_empirical_study.md)
 - [2026 팬 단독/70:30 자리별 비교 CSV](data/processed/2026_fan_only_vs_weighted.csv)
-- **2015 팬 단독 결과는 아직 미확정**: 최종 후보 120명 원자료 검증 전에는 명단 변경 여부를 단정하지 않습니다.
+- **2015 팬 단독과 합산 24명 전원 동일(0명 변경)**: KBO 공식 최종 120후보 득표표를 확인했습니다. 120명 전체 CSV 기계 전사는 추후 보완합니다.
 - 2026은 KBO 공식 확인 6개 자리 역전으로 대표성 60%→80%, 표준편차 2.80→1.96.
+
+## 전체 18개년 실증분석 결과 (신규)
+
+- **[2009–2026 전체 보고서](docs/2009_2026_comprehensive_empirical_results.md)** — 18개 연도 실제 대표성, 11개 연도 팬 단독 vs 70:30 비교, 연도별 검증 상태
+- [18개 연도별 대표성 CSV](data/processed/kbo_2009_2026_annual_representation.csv) / [11개 연도 시나리오 지표 CSV](data/processed/kbo_2014_2026_fan_vs_weighted_metrics.csv)
+- [선발 역전 30개 자리와 원자료 링크](data/processed/kbo_2014_2026_reversal_positions.csv)
+- [구단×연도 패널 CSV](data/processed/kbo_2009_2026_team_year_panel.csv)
+- [2019–2026 신규 KBO 공식 구단별 원자료](data/raw/2019_2026_initial_team_counts_official.csv)
+- `python3 scripts/validate_2009_2026.py` — 구단별 총합·표준편차·팬 시나리오 산술 검산
+- **미해결:** 2009–2013 원본 선발명단 재대조, 2016·2022·2023의 후보 120명 전수 득표 검증, 투표 마감 당시 팀 순위/승률·관중 수
+
+**아래 2009–2018 원안 표는 역사적 예비 결과이고, 위 링크가 2009–2026 확장 실증 결과입니다.**
 
 ## 연구 질문
 
