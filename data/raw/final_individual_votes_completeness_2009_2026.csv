@@ -3,7 +3,7 @@ year,status,individual_votes_rows_recorded,expected_candidate_rows,vote_type,det
 2010,complete,80,80,fan_only,사용자 제공 2010 최종 집계 이미지 2장 후보 전원 전사 및 선발 20명 검산,data/raw/2010_final_all_80_candidate_fan_votes.csv
 2011,complete,80,80,fan_only,연합뉴스 최종 집계표 80명 전사·선발자 및 구단별 합계 일치,data/raw/2011_final_all_80_candidate_fan_votes.csv
 2012,complete,80,80,fan_only,사용자 제공 최종 집계 이미지 80명 전체 전사 및 20명 선발 검산; KBO 보도자료 총투표수 확인,data/raw/2012_final_all_80_candidate_fan_votes.csv
-2013,none,0,99,fan_only,KBO 공식 문서 후보 득표수 전수 미입력; 9개 구단 22자리,
+2013,complete,99,99,fan_only,사용자 제공 2013 최종 집계 이미지·KBO 최종표 99명 전수 전사 및 베스트11 22명 대조,data/raw/2013_final_all_99_candidate_fan_votes.csv
 2014,complete,99,99,fan_and_player,KBO 공식 최종 후보 99명 팬·선수단 득표 전사 및 환산식 확인,data/raw/2014_kbo_official_candidate_votes.csv
 2015,none,0,120,fan_and_player,KBO 최종 선발자 24명 CSV에 팬/선수단 숫자 빈칸; 전체 120 후보 미입력,data/raw/2015_official_selected_24.csv
 2016,none,0,120,fan_and_player,후보 전수 미입력,
