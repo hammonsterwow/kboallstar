@@ -9,7 +9,7 @@ year,status,individual_votes_rows_recorded,expected_candidate_rows,vote_type,det
 2016,complete,120,120,fan_and_player,사용자 제공 KBO 최종표 2장 120명 팬·선수단·총점 전사 및 70대30 환산·선발24명 검증,data/raw/2016_final_all_120_candidate_votes.csv
 2017,complete,120,120,fan_and_player,KBO 공식 최종 표 후보 120명 팬·선수단·환산점수 전수 검산,data/raw/2017_final_all_120_candidate_votes.csv
 2018,complete,120,120,fan_and_player,사용자 제공 2018 KBO 최종 집계표 2장 후보 120명 팬·선수단 득표 및 환산점수 검산 완료,data/raw/2018_final_all_120_candidate_votes.csv
-2019,none,0,120,fan_and_player,후보 전수 미입력,
+2019,complete,120,120,fan_and_player,KBO 공식 최종 120명 득표 표에서 팬·선수단 득표·점수 전수 입력 및 검산,data/raw/2019_final_all_120_candidate_votes.csv
 2020,none,0,120,fan_only_covid,팬 투표만 실시; 후보 전수 미입력,
 2021,none,0,120,fan_only_covid,팬 투표만 실시; 후보 전수 미입력,
 2022,none,0,120,fan_and_player,후보 전수 미입력,
