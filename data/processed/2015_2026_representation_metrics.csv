@@ -1,0 +1,4 @@
+year,scenario,n_clubs,selected_players,represented_clubs,representation_rate,population_sd,cv,hhi,verification_status,source_url
+2015,actual_70_30,10,24,8,0.80000000,1.68522995,0.70217915,0.14930556,confirmed_actual_fan_only_pending,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=5974
+2026,fan_100_counterfactual,10,24,6,0.60000000,2.80000000,1.16666667,0.23611111,reconstructed_from_KBO_six_reversals,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12005
+2026,actual_70_30,10,24,8,0.80000000,1.95959179,0.81649658,0.16666667,KBO_official_actual,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12005
