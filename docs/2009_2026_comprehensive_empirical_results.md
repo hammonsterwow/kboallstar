@@ -97,7 +97,7 @@
 
 - [연도별 실제 대표성 18개 연도](../data/processed/kbo_2009_2026_annual_representation.csv)
 - [11개년 팬 가상 vs 실제 대표성](../data/processed/kbo_2014_2026_fan_vs_weighted_metrics.csv)
-- [29개 역전 자리와 선수·출처](../data/processed/kbo_2014_2026_reversal_positions.csv)
+- [30개 역전 자리와 선수·출처](../data/processed/kbo_2014_2026_reversal_positions.csv)
 - [구단×연도·시나리오 전체 패널](../data/processed/kbo_2009_2026_team_year_panel.csv)
 
 각 연도에 참여한 구단 수 및 선발 인원 정원 합계를 자동 점검했으며, 전·후 지표는 원래 정의대로 모집단 기준으로 산출.
