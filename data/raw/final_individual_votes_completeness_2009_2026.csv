@@ -1,5 +1,5 @@
 year,status,individual_votes_rows_recorded,expected_candidate_rows,vote_type,detail,repository_file
-2009,partial,10,80,fan_only,2009 최종 기사·외부 보도에 등장하는 득표수 10건만 입력,data/raw/2009_final_confirmed_individual_fan_votes_partial.csv
+2009,complete,80,80,fan_only,사용자가 제공한 2009 최종 집계표 이미지에서 후보 전원 80명 전사; 구단별 선발 20명 검산,data/raw/2009_final_all_80_candidate_fan_votes.csv
 2010,none,0,80,fan_only,"2010 구단별 선발 인원만 저장, 후보 득표수 전사 필요",
 2011,complete,80,80,fan_only,연합뉴스 최종 집계표 80명 전사·선발자 및 구단별 합계 일치,data/raw/2011_final_all_80_candidate_fan_votes.csv
 2012,none,0,80,fan_only,득표수 전수 미입력,
