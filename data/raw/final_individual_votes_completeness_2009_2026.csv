@@ -13,7 +13,7 @@ year,status,individual_votes_rows_recorded,expected_candidate_rows,vote_type,det
 2020,none,0,120,fan_only_covid,팬 투표만 실시; 후보 전수 미입력,
 2021,none,0,120,fan_only_covid,팬 투표만 실시; 후보 전수 미입력,
 2022,none,0,120,fan_and_player,후보 전수 미입력,
-2023,none,0,120,fan_and_player,후보 전수 미입력,
+2023,complete,120,120,fan_and_player,사용자 제공 2023 최종 집계표 후보 120명 팬·선수단 득표·총점 전수 검산 완료,data/raw/2023_final_all_120_candidate_votes.csv
 2024,partial,50,120,fan_and_player,사용자 제공 유격수·외야수·지명타자 50명 최종 득표 전사; 나머지 70명 미수집,data/raw/2024_final_candidate_votes_partial_50.csv
 2025,complete,120,120,fan_and_player,KBO 공식 최종 집계 후보 120명 팬·선수단 득표 및 환산점수 전수 검산 완료,data/raw/2025_final_all_120_candidate_votes.csv
 2026,partial,24,120,fan_and_player,"공식 선발자 24명의 팬·선수단 득표 확인, 낙선 후보 미입력",data/raw/2026_official_selected_24.csv
