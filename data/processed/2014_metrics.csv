@@ -1,0 +1,3 @@
+year,method,selections,teams,represented_teams,representation_rate,population_sd,cv,hhi,source_url
+2014,fan_100_counterfactual,22,9,9,1,1.0657403385139377,0.43598468393751993,0.13223140495867766,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=5556
+2014,actual_70_30,22,9,9,1,1.0657403385139377,0.43598468393751993,0.13223140495867766,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=5556
