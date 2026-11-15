@@ -2,7 +2,7 @@
 
 **KBO 올스타 투표 방식 변화와 구단별 대표성 (2009–2026 확대 연구, 원안 2009–2018)**
 
-> Status: **Research in progress / Preliminary data** (2026-11-14)
+> Status: **Candidate vote counts collected for 2009–2026; 2022 has 2 unresolved score checks** (2026-11-15)
 > 이 저장소의 10개년 집계는 **예비 분석**입니다. 원본 출처 재대조, 팬 투표 단독 명단 재구성, 통제변수 수집을 거친 뒤 최종 논문에 사용합니다.
 
 ## 2026년까지 연구 범위 확대 (2026-11-14)
@@ -19,16 +19,16 @@
 - [2014 공식 투표 99명 전수 분석: 팬 단독 vs 합산 0명 변경](docs/2014_empirical_study.md)
 - [2015 · 2026 공식 선발 및 구단 대표성 연구 보고서](docs/2015_2026_empirical_study.md)
 - [2026 팬 단독/70:30 자리별 비교 CSV](data/processed/2026_fan_only_vs_weighted.csv)
-- **2015 팬 단독과 합산 24명 전원 동일(0명 변경)**: KBO 공식 최종 120후보 득표표를 확인했습니다. 120명 전체 CSV 기계 전사는 추후 보완합니다.
+- **2015 팬 단독과 합산 24명 전원 동일(0명 변경)**: [후보 120명 득표 CSV](data/raw/2015_final_all_120_candidate_votes.csv) 전수 전사·검산 완료.
 - 2026은 KBO 공식 확인 6개 자리 역전으로 대표성 60%→80%, 표준편차 2.80→1.96.
 
 ## 최종 후보별 득표수 수집 — 최신 상태
 
-- [연도별 득표수 수집현황 대장](docs/final_votes_collection_status.md): **완료 2011·2014**, 일부 2009·2026, 그 외 미입력
-- [2011년 후보 80명 전원의 최종 팬 득표 CSV](data/raw/2011_final_all_80_candidate_fan_votes.csv) — 총 팬투표 1,623,576표, 20명 선발 검산
-- [2009년 기사로 확인한 개인 최종 득표 10명 CSV](data/raw/2009_final_confirmed_individual_fan_votes_partial.csv) — 전체 80명 중 10명만 확인
-- [2009·2011 자료수집 방법과 출처](docs/2009_2011_final_votes_archive.md)
-- **중간집계와 최종집계를 혼합하지 않으며**, 후보별 득표수 미입력 연도의 팬 단독 재구성은 별도의 검증 상태를 유지합니다.
+- **[연도별 득표수 확보 현황 대장](docs/final_votes_collection_status.md)** — 2009–2026 전 연도 후보 전원 CSV 입력. 2022년만 공식 점수와 원표 수치 불일치 2행 추가 확인.
+- [2022년 후보 120명 전체 득표 CSV](data/raw/2022_final_all_120_candidate_votes.csv) / [2022년 검산·오류 주석](docs/2022_full_ballot_archive.md).
+- [2024년 후보 120명 전체 득표 CSV](data/raw/2024_final_all_120_candidate_votes.csv) / [2024년 전수 검산 보고서](docs/2024_full_ballot_archive.md).
+- [2022·2024년 팬 100% vs 실제 70:30 대표성 비교](docs/final_votes_collection_status.md).
+- 팬 100% 해당 연도는 선수단 표 N/A, 2020–2021년 팬 투표 단독 특례로 분리. 감독 추천·대체 선수 제외.
 
 ## 전체 18개년 실증분석 결과 (신규)
 
@@ -38,7 +38,7 @@
 - [구단×연도 패널 CSV](data/processed/kbo_2009_2026_team_year_panel.csv)
 - [2019–2026 신규 KBO 공식 구단별 원자료](data/raw/2019_2026_initial_team_counts_official.csv)
 - `python3 scripts/validate_2009_2026.py` — 구단별 총합·표준편차·팬 시나리오 산술 검산
-- **미해결:** 2009–2013 원본 선발명단 재대조, 2016·2022·2023의 후보 120명 전수 득표 검증, 투표 마감 당시 팀 순위/승률·관중 수
+- **미해결:** 2022년 후보 120명 중 2명의 공표 점수·원본 숫자 불일치 추가 확인, 2009–2013 원본 선발명단 독립 재대조, 투표 마감 당시 팀 순위/승률·관중 수
 
 **아래 2009–2018 원안 표는 역사적 예비 결과이고, 위 링크가 2009–2026 확장 실증 결과입니다.**
 
