@@ -12,7 +12,7 @@ year,status,individual_votes_rows_recorded,expected_candidate_rows,vote_type,det
 2019,complete,120,120,fan_and_player,KBO 공식 최종 120명 득표 표에서 팬·선수단 득표·점수 전수 입력 및 검산,data/raw/2019_final_all_120_candidate_votes.csv
 2020,complete,120,120,fan_only_covid,KBO 공식 최종 팬 득표 후보 120명 전수 전사·원선발과 실제 선발 24명 검산,data/raw/2020_final_all_120_candidate_fan_votes.csv
 2021,complete,120,120,fan_only_covid,KBO 공식 최종 팬 득표 후보 120명 전수 전사·라모스 웨이버 대체 박병호 선정 별도 구분,data/raw/2021_final_all_120_candidate_fan_votes.csv
-2022,complete_needs_2_score_checks,120,120,fan_and_player,후보120명 전원 전사 및 24명 선발 검증 완료; 김석환·최형우 2개 행 공식총점과 원표 숫자 불일치로 추가 확인 필요,data/raw/2022_final_all_120_candidate_votes.csv
+2022,complete_needs_1_score_check,120,120,fan_and_player,후보120명 전원 전사 및 24명 선발 검증 완료; 최형우 공식 1310959표로 정정; 김석환 원표 득표-공표 총점 1행 불일치 기록,data/raw/2022_final_all_120_candidate_votes.csv
 2023,complete,120,120,fan_and_player,사용자 제공 2023 최종 집계표 후보 120명 팬·선수단 득표·총점 전수 검산 완료,data/raw/2023_final_all_120_candidate_votes.csv
 2024,complete,120,120,fan_and_player,추가로 제공된 나머지 70명과 기존 50명을 합쳐 120명 팬·선수단 득표 및 공식 총점 전수 검증 완료,data/raw/2024_final_all_120_candidate_votes.csv
 2025,complete,120,120,fan_and_player,KBO 공식 최종 집계 후보 120명 팬·선수단 득표 및 환산점수 전수 검산 완료,data/raw/2025_final_all_120_candidate_votes.csv
